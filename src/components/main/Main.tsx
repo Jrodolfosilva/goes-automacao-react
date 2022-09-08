@@ -1,12 +1,16 @@
 import React from "react";
 import {ContainerMain} from "./styled"
-
+import Slide1 from "../../assets/slide1.jpg"
+import Slide2 from "../../assets/slide2.jpg"
+import Slide3 from "../../assets/slide3.jpg"
 const Main = ()=>{
+const arryimg = [Slide1,Slide2,Slide3]
 
     return (
        <ContainerMain>
-
-        ollls
+       
+        <img src={Slide2} alt="" />
+        
        </ContainerMain>
     )
 }

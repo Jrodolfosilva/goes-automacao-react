@@ -1,11 +1,17 @@
-import React from "react";
-import {ContainerHeader} from "./styled";
+import React, { useState } from "react";
+import {ContainerHeader,ToogleMobile} from "./styled";
 import Logo from "../../assets/logo-registro2.png";
 import whats from "../../assets/icons8-whatsapp-50.png"
+import open from "../../assets/open.png";
+import cloose from "../../assets/cloose.png"
+
+
+
 const Header = ()=>{
 
+    const [active,setActive] = useState(false)
     return (
-        <ContainerHeader>
+        <ContainerHeader ativo={active}>
             <img src={Logo} alt={"LOgo"}/>
             <nav>
                 <ul>
@@ -20,6 +26,10 @@ const Header = ()=>{
                     <li>ACESSO AO SISTEMA</li>
                 </ul>
             </nav>
+            <ToogleMobile onClick={()=>setActive(!active)}>
+            <img src={active?cloose:open} alt=""/>    
+                
+            </ToogleMobile>
         </ContainerHeader>
     )
 }
