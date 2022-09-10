@@ -11,7 +11,7 @@
 ## 📚 Sobre
 
 <p align="justify">
-O projeto consiste em migra o site para Reactjs
+O projeto consiste em uma migração para Reactjs. O site atual, apresenta problemas de perfomace. 
 
 *Tablet 768px*
 *Mobile 425px*
