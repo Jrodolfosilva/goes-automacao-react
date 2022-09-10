@@ -3,19 +3,19 @@ import styled from "styled-components";
 export const ContainerHeader = styled.header`
 position: fixed;
 z-index: 99;
-top: 2%;
 width: 100vw;
 display: flex;
 justify-content: space-between;
 align-items: center;
 height: 10vh;
-padding: 10px 80px;
+padding: 10px 100px;
 font-size: 11px;
 flex-wrap: wrap;
+border-top: 2px solid #93bf39;
 
 
 img{
-    width: 150px;
+    width: 155px;
 }
 nav ul{
     display: flex;

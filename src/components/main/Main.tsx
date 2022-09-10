@@ -10,6 +10,7 @@ const arryimg = [Slide1,Slide2,Slide3]
        <ContainerMain>
        
         <img src={Slide2} alt="" />
+        <button>Fale com um especialista agora</button>
         
        </ContainerMain>
     )
